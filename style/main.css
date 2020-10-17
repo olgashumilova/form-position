@@ -5,92 +5,97 @@
     margin: 0 auto;
 }
 
-.first-circle {
-    width: 10%;
-    height: 10%;
+.left-top-circle {
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    width: 15%;
+    height: 15%;
     border-radius: 100%;
     background-color: rgb(238,34,12) ;
     z-index: 1;
 }
 
-.first-circle:hover {
+.left-top-circle:hover {
     background-color: teal;
     z-index: 15;
 }
 
-.second-circle {
-    position: relative;
-    left: 20%;
-    bottom: 10%;
-    width: 10%;
-    height: 10%;
+.right-top-circle {
+    position: absolute;
+    left: 55%;
+    top: 10%;
+    width: 15%;
+    height: 15%;
     border-radius: 100%;
     background-color: rgb(238,34,12) ;
     z-index: 2;
 }
 
-.second-circle:hover {
+.right-top-circle:hover {
     background-color: yellow;
     z-index: 15;
 }
 
-.third-circle {
-    width: 10%;
-    height: 10%;
+.left-bot-circle {
+    position: absolute;
+    left: 25%;
+    bottom: 45%;
+    width: 15%;
+    height: 15%;
     border-radius: 100%;
     background-color: rgb(238,34,12) ;
     z-index: 3;
 }
 
-.third-circle:hover {
+.left-bot-circle:hover {
     background-color: violet;
     z-index: 15;
 }
 
-.forth-circle {
-    position: relative;
-    left: 20%;
-    bottom: 10%;
-    width: 10%;
-    height: 10%;
+.right-bot-circle {
+    position: absolute;
+    left: 55%;
+    bottom: 45%;
+    width: 15%;
+    height: 15%;
     border-radius: 100%;
     background-color: rgb(238,34,12) ;
     z-index: 4;
 }
 
-.forth-circle:hover {
+.right-bot-circle:hover {
     background-color: goldenrod;
     z-index: 15;
 }
 
 
-.first-box {
-    position: relative;
-    bottom: 35%;
-    left: 5%;
-    width: 20%;
-    height: 20%;
+.big-box {
+    position: absolute;
+    bottom: 52%;
+    left: 32%;
+    width: 30%;
+    height: 30%;
     background-color: rgb(0,162,255);
     z-index: 5;
 }
 
-.first-box:hover {
+.big-box:hover {
     background-color: indigo;
-    z-index: 15;
+    z-index: 20;
 }
 
-.second-box {
-    position: relative;
-    left: 25%;
-    top: 25%;
-    z-index: 20;
-    width: 50%;
-    height: 50%;
+.small-box {
+    position: absolute;
+    left: 37%;
+    top: 23%;
+    width: 20%;
+    height: 20%;
     background-color: rgb(248,186,0);
     border-radius: 10%;
+    z-index: 6;
 }
 
-/* .second-box:hover {
-    z-index: 10;
-
-} */
+.small-box:hover {
+    z-index: 30;
+}
